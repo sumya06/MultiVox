@@ -1,45 +1,44 @@
----
+🎬 MultiVox | AI-Powered Movie Dubbing Platform
 
-### 🔹 Role of MERN Stack (MongoDB, Express, React, Node)
+MultiVox is an intelligent movie dubbing platform that combines the MERN stack and Python-based AI to create high-quality dubbed content. Users can upload videos, generate AI voices in different languages, and achieve automatic lip-syncing through advanced speech processing.
 
-The MERN stack handles the **web platform** for MultiVox.
+🔹 MERN Stack Responsibilities
 
-* **React.js**:
-  Frontend user interface for uploading audio/video, viewing subtitles, playback control, and project dashboards.
+The MERN stack manages the web application and user interaction layer.
 
-* **Node.js + Express.js**:
-  Backend APIs for handling file uploads, user authentication, and communication with the Python services.
+React.js
+Provides an intuitive UI for uploading media, managing subtitles, playback control, and project dashboards.
 
-* **MongoDB**:
-  Database for storing user profiles, movie metadata, subtitles, dubbing projects, and processed audio records.
+Node.js + Express.js
+Manages file uploads, user authentication, and server-side communication with Python AI services.
 
-The MERN side focuses on **user experience, data management, and multimedia workflow control**.
+MongoDB
+Stores user accounts, movie metadata, subtitles, dubbing history, and generated audio files.
 
----
+Focus areas: User experience, media workflow control, secure data handling
 
-### 🔹 Role of Python
+🔹 Python Responsibilities
 
-Python is used for **AI-based dubbing and media processing**.
+Python powers AI-driven audio-visual transformation.
 
-Typical functionalities include:
+Key capabilities include:
 
-* **Speech-to-Text**: Extract dialogue from the original movie
-* **Text-to-Speech**: Generate dubbed audio in a new language
-* **Voice Cloning**: Preserve actor tone or create custom AI voices
-* **Lip-sync automation**: Sync generated audio with character lip movements
-* **Audio cleanup**: Noise filtering, pitch adjustment, timing correction
-* Libraries: PyTorch, TensorFlow, Whisper, OpenCV, ffmpeg, etc.
+Speech-to-Text for extracting original dialogues
+Text-to-Speech for generating dubbed audio in selected languages
+Voice cloning for actor-like voice output
+Lip-sync automation to align mouth movements with dubbed audio
+Audio enhancement: noise reduction, pitch correction, timing fixes
+Technologies: PyTorch, TensorFlow, Whisper, OpenCV, ffmpeg
+Focus area: AI voice synthesis and automated dubbing
 
-Python focuses on **intelligent audio-visual transformation**.
+✅ Workflow Overview
 
----
+User uploads movie via React UI
+Node.js backend sends audio/video to Python engine
+Python generates dubbed audio and lip-syncs with video
+Results are saved in MongoDB
+User previews and downloads processed video in browser
 
-### ✅ Combined Workflow Example
+💡 Objective
 
-1. User uploads movie through React UI.
-2. Node.js server transfers video or audio to Python processing.
-3. Python performs dubbing, voice synthesis, and lip-sync.
-4. Results are saved into MongoDB through Node.
-5. Processed dubbed movie becomes available in the browser interface.
-
----
+To deliver a seamless, AI-assisted dubbing experience that reduces manual effort and increases dubbing quality for filmmakers, content creators, and studios.
